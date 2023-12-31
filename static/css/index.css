@@ -1,0 +1,39 @@
+/* ? Specifically for the landing page (adds to style.css) */
+.landing-container {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/pfp/Lynda_K_Tattooing.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:80vw;
+	background-color: rgba(22, 17, 24, 0);
+	background-position: center;
+    min-height:50vh;
+    backdrop-filter: blur(10px);
+
+}
+
+.pfp {
+	max-width: 80vw;
+	aspect-ratio: 1/1;
+	margin: 15px 10px;
+}
+
+h2 {
+    font: 52px georgia;
+}
+
+.signature {
+	max-width:20vw;
+	aspect-ratio: 1/1;
+}
+
+.artist-name {
+	margin-top: 60px;
+}
+
+h3 {
+    font: 42px georgia;
+}

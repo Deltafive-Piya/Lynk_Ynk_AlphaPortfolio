@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LynkYnk- Tattoo Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon_inverted.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/skinCare.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_nav_basic.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_footer_insta.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+</head>
+<body>
+    <!--* NAVBAR  -->
+    {% include '_nav_basic.html' %}
+    <div class="paged-container">
+        
+        <div class="landing-container">
+            <h2 class="artist-name">Lynk Ynk</h2>
+            <img class="signature" src="/static/images/icons/LyndaK_Logo.png" alt="Lynda Kongs's Cursive L Logo">
+            <h3>Savannah, GA</h3>
+            <fieldset>
+                contact me (coming soon)
+            </fieldset>
+
+        </div>
+    </div>
+
+    <!--* FOOTER -->
+    {% include '_footer_insta.html' %}
+
+    <!-- Load your JavaScript file at the end of the body -->
+    <script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+</body>
+</html>

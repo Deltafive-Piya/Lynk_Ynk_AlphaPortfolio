@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LynkYnk- Contact</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon_inverted.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_nav_basic.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_footer_insta.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+</head>
+<body>
+    <!--* NAVBAR  -->
+    {% include '_nav_basic.html' %}
+    <div class="paged container">
+        <!--* Contact Form -->
+        <div id="name1">
+            <fieldset>
+                <div>
+                    <h2>
+                        Contact Form
+                    </h2>
+                    <h4><span style="color: lightblue;"> Currently, all request must be made via Instagram or in-person @ High Rank Tattoo. Form coming Soon!</span></h4>
+                </div>
+
+                <!-- ! This div encapsulates all fields within Contact Form Fieldset -->
+                <!-- <div class="contact-container">
+                    <label for="fname-field">
+                        <div>
+                            <div>First Name (required)</div>
+                        </div>
+                    </label>
+                    <input aria-invalid="false" aria-required="true" autocomplete="given-name" id="fname-field"
+                        name="fname" type="text" value="">
+                    <div>
+                        <label for="lname-field">
+                            <div>
+                                <div>Last Name (required)</div>
+                            </div>
+                        </label>
+                        <input aria-invalid="false" aria-required="true" autocomplete="family-name" id="lname-field"
+                            name="lname" type="text" value="">
+                    </div>
+                    <div id="email2">
+                        <label for="email2-field">
+                            <div>
+                                <div>Email Address (required)</div>
+                            </div>
+                        </label>
+                        <input aria-invalid="false" aria-required="true" autocomplete="false" id="email-field"
+                            placeholder="customer@email.com" type="email" value="">
+                    </div>
+                    <div id="text3">
+                        <label for="text3-field">
+                            <div>
+                                <div>
+                                    <span>Subject</span>
+                                    <span class="description required">(required)</span>
+                                </div>
+                            </div>
+                        </label>
+                        <input aria-invalid="false" aria-required="true" autocomplete="false" id="subject-field"
+                            placeholder="American Trad Flying Zebra" type="text" value="">
+                    </div>
+                    <div id="textarea4">
+                        <label for="textarea4-field">
+                            <div>
+                                <div>
+                                    <span>Message</span>
+                                    <span class="description required">(required)</span>
+                                </div>
+                            </div>
+                        </label>
+                        <textarea id="textarea4-field" aria-invalid="false" rows="5"
+                            placeholder="How and why do you envision this piece?" value=""></textarea>
+                    </div>
+                    <button type="button" id="submitBtn">Send Email</button>
+                </div> -->
+            </fieldset>
+        </div>
+    </div>
+    </div>
+
+    <!--* FOOTER -->
+    {% include '_footer_insta.html' %}
+
+    <script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+</body>
+</html>

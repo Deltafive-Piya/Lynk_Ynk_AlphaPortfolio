@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LynkYnk- Skin Care</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon_inverted.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_nav_basic.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_footer_insta.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/skinCare.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+</head>
+<body>
+    <!--* NAVBAR  -->
+    {% include '_nav_basic.html' %}
+    <div class="paged container">
+        <div class="instructions">
+            <div class="additional-instructions">
+                <h1>Post-Care For Your Tattoo</h1>
+                <p>After 2 hours, remove and dispose of bandages. You will not need to reapply any bandages to allow open healing.</p>
+                <p>Wash your new tattoo using warm water and gentle antibacterial soap. Avoid hot water as it will further irritate your skin.</p>
+                <p>Gently pat your tattoo dry with a clean towel. Never rub or scrub your healing tattoo. Paper towel is recommended to avoid cloth towel lint and possible bacterial infection.</p>
+                <p>Apply a thin layer of A&D ointment and rub into skin in a circular motion to allow skin absorption. Apply ointment 3-4 times a day for the first week.</p>
+                <p>After your first week of healing, you may switch to unscented lotions and only apply as needed (when your tattoo looks dry and dehydrated)</p>
+                <p>Your tattoo will itch during the healing process. Do not scratch or pick at any flaking skin especially if you have blood scabs.</p>
+                <p>Avoid excessive sun exposure and do not submerge your tattoo in water while it is healing.</p>
+            </div>
+            <div>
+                <h2>Protect your new tattoos with<br>Recovery Derma Shield</h2>
+                <h2></h2>
+                <h4><strong>Benefits:</strong></h4>
+                <ul>
+                    <li>Light, latex-free, transparent matte film bandage</li>
+                    <li>Eliminates scabbing and reduces risk of scarring</li>
+                    <li>Maximum breathability and flexibility</li>
+                    <li>Waterproof and permeable to allow perspiration</li>
+                </ul>
+            </div>
+            <div>
+                <h4><strong>Directions for Use:</strong></h4>
+                <ol>
+                    <li>
+                        Gently clean with a light antibacterial soap with warm water and pat dry the tattoo and
+                        surrounding area, ensuring there is no soap or any residue on the skin.
+                    </li>
+                    <li>
+                        Cut the Derm Shield to cover the tattooed area plus a 1 to 2 inch margin from the edge of the
+                        tattoo.
+                    </li>
+                    <li>
+                        Peel off backing to expose the adhesive side and position the Derm Shield over the tattoo with
+                        the adhesive side facing the skin.
+                    </li>
+                    <li>
+                        Gently apply using light pressure, starting from the center to the edges to eliminate air
+                        bubbles. Do not stretch the Derm Shield during application.
+                    </li>
+                    <li>
+                        The first Derm Shield application should stay in place for 24 hours, depending on the level of
+                        exudation. It is normal for blood and fluids to collect under the bandage.
+                    </li>
+                    <li>
+                        A second application can be used for several days, and a third application may be used if
+                        necessary. Gently clean and dry the area between applications. Do not wear any piece longer than
+                        one week.
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <h4><strong>Directions for Removal:</strong></h4>
+                    <p>
+                        It is recommended to remove Derm Shield in the shower. The water will help with the removal process.
+                        Gently peel the Derm Shield by pulling it slowly from the edge back over itself. Do not pull the
+                        bandage upwards.
+                    </p>
+            </div>
+            <div>
+                <h4><strong>Caution:</strong></h4>
+                    <p>
+                        For external use only. Use only as directed. Do not apply to infected wounds. This product contains
+                        adhesives and may cause allergic reactions. If an allergic reaction or any irritation occurs,
+                        discontinue use immediately. Consult a physician if the reaction or irritation is severe.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <!--* FOOTER -->
+    {% include '_footer_insta.html' %}
+    <script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.instructions {
+    width: 65vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+    .instructions > div {
+        margin: 100px 30px;
+    }
+    
+    h1 {
+        font: 52px georgia;
+        text-align: center;
+    }
+    
+    h2 {
+        font: 42px georgia;
+        text-align: center;
+    }
+    
+    h4 {
+        font: 32px georgia;
+    }
+    
+    h5 {
+        font: 22px georgia;
+    }

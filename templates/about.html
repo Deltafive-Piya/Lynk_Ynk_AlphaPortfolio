@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LynkYnk- Skin Care</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon_inverted.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_nav_basic.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_footer_insta.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/skinCare.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+</head>
+<body>
+    <!--* NAVBAR  -->
+    {% include '_nav_basic.html' %}
+    <div class="paged container">
+        <div class="instructions">
+            <div>
+                <h5>
+                    Coming Soon...
+                </h5>
+            </div>
+        </div>
+    </div>
+    <!--* FOOTER -->
+    {% include '_footer_insta.html' %}
+    <script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+</body>
+</html>

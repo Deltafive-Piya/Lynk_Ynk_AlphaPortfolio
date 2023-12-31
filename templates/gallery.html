@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LynkYnk- Tattoo Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon_inverted.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_nav_basic.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/_footer_insta.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+</head>
+<body>
+    <!--* NAVBAR  -->
+    {% include '_nav_basic.html' %}
+    <div class="paged container">
+        <!--* PICTURES -->
+        <div class="gallery">
+            <img src="../static/images/tattoos/Dinosaur_Watercolor_Arm.jpg" alt="Watercolor Dinosaur Arm Piece">
+            <img src="../static/images/tattoos/Dragon_Floral_Thigh.jpg" alt="Floral Dragon Thigh Piece">
+            <img src="../static/images/tattoos/Tiger_Color_Arm.jpg" alt="Tiger Color Arm Piece">
+            <img src="../static/images/tattoos/Floral_BW_Back.jpg" alt="Floral Black and White Back Piece">
+            <img src="../static/images/tattoos/Gengar_Color_Arm.jpg" alt="Gengar Color Arm Piece">
+            <img src="../static/images/tattoos/Dreamcatcher_BW_Shoulder.jpg" alt="Dreamcatcher Black and White Shoulder Piece">
+            <img src="../static/images/tattoos/YingYang_Henna_Calf.jpg" alt="Ying-Yang Henna Calf Piece">
+            <img src="../static/images/tattoos/Dinosaur_Watercolor_Arm.jpg" alt="Watercolor Dinosaur Arm Piece">
+            <img src="../static/images/tattoos/Dragon_Floral_Thigh.jpg" alt="Floral Dragon Thigh Piece">
+            <img src="../static/images/tattoos/Tiger_Color_Arm.jpg" alt="Tiger Color Arm Piece">
+            <img src="../static/images/tattoos/Floral_BW_Back.jpg" alt="Floral Black and White Back Piece">
+            <img src="../static/images/tattoos/Gengar_Color_Arm.jpg" alt="Gengar Color Arm Piece">
+            <img src="../static/images/tattoos/Dreamcatcher_BW_Shoulder.jpg" alt="Dreamcatcher Black and White Shoulder Piece">
+            <img src="../static/images/tattoos/YingYang_Henna_Calf.jpg" alt="Ying-Yang Henna Calf Piece">
+            <img src="../static/images/tattoos/Dinosaur_Watercolor_Arm.jpg" alt="Watercolor Dinosaur Arm Piece">
+            <img src="../static/images/tattoos/Dragon_Floral_Thigh.jpg" alt="Floral Dragon Thigh Piece">
+            <img src="../static/images/tattoos/Tiger_Color_Arm.jpg" alt="Tiger Color Arm Piece">
+            <img src="../static/images/tattoos/Floral_BW_Back.jpg" alt="Floral Black and White Back Piece">
+            <img src="../static/images/tattoos/Gengar_Color_Arm.jpg" alt="Gengar Color Arm Piece">
+            <img src="../static/images/tattoos/Dreamcatcher_BW_Shoulder.jpg" alt="Dreamcatcher Black and White Shoulder Piece">
+            <img src="../static/images/tattoos/YingYang_Henna_Calf.jpg" alt="Ying-Yang Henna Calf Piece">
+        </div>
+    </div>
+    
+    <!--* MODAL STRUCTURE -->
+    <div id="modal" class="modal">
+        <span id="close-btn" class="close">&times;</span>
+        <img id="modal-img" class="modal-content" alt="Modal Image">
+    </div>
+
+    <!--* FOOTER -->
+    {% include '_footer_insta.html' %}
+
+    <!-- Load your JavaScript file at the end of the body -->
+    <script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+</body>
+</html>
