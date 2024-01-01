@@ -14,38 +14,22 @@
 </head>
 <body>
     <!--* NAVBAR  -->
-    <nav class="paged nav">
-        <div class="left">
-            <a href="/"><img src="../static/images/lynk_ynk_pfp.png" alt="Lynk_Ynk's Profile Picture"></a>
-        </div>
-        <div class="right">
-            <ul>
-                <li><a href="/gallery">Gallery</a></li>
-                <li><a href="/flashArt">Flash Art</a></li>
-                <li><a href="/skinCare">Skin Care</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </div>
-        <div class="break-line"></div>
-    </nav>
-
+    {% include '_nav_basic.html' %}
     <div class="paged-container">
+        
         <div class="landing-container">
             <h2 class="artist-name">Lynk Ynk</h2>
             <img class="signature" src="/static/images/icons/LyndaK_Logo.png" alt="Lynda Kongs's Cursive L Logo">
             <h3>Savannah, GA</h3>
             <fieldset>
-                contact me (coming soon)
+                contact me (coming really soon)
             </fieldset>
+
         </div>
     </div>
 
     <!--* FOOTER -->
-    <footer class="footer-text">
-        <div class="break-line"></div>
-        <a href="https://www.instagram.com/lynk_ynk/" target="_blank"><img src="../static/images/icons/ig-logo-white.png" alt="Instagram Link to Lynk_Ynks profile"></a>
-    </footer>
+    {% include '_footer_insta.html' %}
 
     <!-- Load your JavaScript file at the end of the body -->
     <script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
