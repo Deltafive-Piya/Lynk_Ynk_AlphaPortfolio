@@ -1,7 +1,7 @@
 
-# Routing practice
+# Portfolio Dec notes
 
-## Steps
+## Alpha proj
 
 1. mkdir routing folder
 2. touch server.py
@@ -14,3 +14,17 @@ pipenv install flask
 
 
 4. Route out server.py.
+
+## Github (Pages compliant version)
+
+1. Create new branch
+
+        git checkout -b PagesCompliant
+
+2. Refactor proj:
+
+        
+
+3. Commit/Push/Deploy
+
+<!--! 4. Do not Merge -->
