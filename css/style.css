@@ -1,49 +1,49 @@
 * {
-    color: rgb(226, 226, 226);
+	color: rgb(226, 226, 226); /** All Default Text-Color */
 }
 
 h1 {
-    font: 52px georgia;
-    text-align: center;
+	font: 52px georgia;
+	text-align: center;
 }
 
 h2 {
-    font: 42px georgia;
-    text-align: center;
+	font: 42px georgia;
+	text-align: center;
 }
 
 h4 {
-    font: 32px georgia;
+	font: 32px georgia;
 }
 
 h5 {
-    font: 22px georgia;
+	font: 22px georgia;
 }
 
 body {
-    background-image: url("./static/images/site_background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100vw;
-    background-color: rgba(22, 17, 24, 0.945);
-    background-position: center;
+	background-image: url("./static/images/site_background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100vw;
+	background-color: rgba(22, 17, 24, 0.945);
+	background-position: center;
 }
 
 fieldset {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90vw;
-    max-width: 820px;
-    margin: 10vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90vw;
+	max-width: 820px;
+	margin: 10vw;
 }
-
-@media screen and (max-width: 560px) {
-    fieldset {
-        width: 98%;
-        margin: 10px;
-    }
-}
+		/** Media query for smaller screens */
+	@media screen and (max-width: 560px) {
+		fieldset {
+			width: 98%;
+			margin: 10px;
+		}
+	}
 
 .container {
     display: flex;
@@ -52,33 +52,34 @@ fieldset {
 }
 
 .gallery {
-    margin-top: 5px;
-    width: 90vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+	margin-top: 5px;
+	width: 90vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
 }
 
-.gallery > img {
-    width: 30vw;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    margin: 30px;
-    cursor: pointer;
-    border-radius: 7px;
-}
-
+	.gallery > img {
+		width: 30vw;
+		aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
+		object-fit: cover; /* Cover the square window without stretching */
+		margin: 30px;
+		cursor: pointer; /* Set cursor for clickable images */
+		border-radius: 7px;
+	}
+	
 .instructions {
-    width: 65vw;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
+	width: 65vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px 20px;
 }
 
-.instructions > div {
-    margin: 100px 30px;
-}
-
+	.instructions > div {
+		margin: 100px 30px;
+	}
+	
+/** Open Preview Window */
 .modal {
     display: none;
     position: absolute;
@@ -90,35 +91,20 @@ fieldset {
     height: 90vh;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 7px;
+	border-radius: 7px;
 }
 
-.modal-content {
-    margin: 10% auto;
-    display: block;
-    width: 75vw;
-    max-height: 70vh;
-}
+	.modal-content {
+		margin: 10% auto;
+		display: block;
+		width: 75vw;
+		max-height: 70vh;
+	}
 
-.close {
-    color: rgb(111, 13, 114);
-    float: right;
-    font-size: 50px;
-    font-weight: bold;
-    margin-right: 15px;
-}
-
-.landing-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url("../Lynda_K_Tattooing.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 80vw;
-    background-color: rgba(22, 17, 24, 0);
-    background-position: center;
-    min-height: 50vh;
-    backdrop-filter: blur(10px);
-}
+	.close {
+		color: rgb(111, 13, 114);
+		float:right;
+		font-size: 50px;
+		font-weight: bold;
+		margin-right: 15px;
+	}
