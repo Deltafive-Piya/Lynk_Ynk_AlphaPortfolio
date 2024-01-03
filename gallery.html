@@ -4,40 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LynkYnk- Tattoo Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon_inverted.png">
+    <!-- <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon_inverted.png">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/_nav_basic.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/_footer_insta.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"> -->
+    <link rel="icon" type="image/x-icon" href="./static/images/favicon/favicon_inverted.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/_nav_basic.css">
+    <link rel="stylesheet" href="./css/_footer_insta.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <!--* NAVBAR  -->
-    {% include '_nav_basic.html' %}
+    <!-- {% include '_nav_basic.html' %} -->
+    <nav class="paged nav">
+        <div class="left">
+            <a href="./index.html"><img src="./static/images/lynk_ynk_pfp.png" alt="Lynk_Ynk's Profile Picture"></a>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./flashArt.html">Flash Art</a></li>
+                <li><a href="./skinCare.html">Skin Care</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="break-line"></div>
+    </nav>
     <div class="paged container">
         <!--* PICTURES -->
         <div class="gallery">
-            <img src="../static/images/tattoos/Dinosaur_Watercolor_Arm.jpg" alt="Watercolor Dinosaur Arm Piece">
-            <img src="../static/images/tattoos/Dragon_Floral_Thigh.jpg" alt="Floral Dragon Thigh Piece">
-            <img src="../static/images/tattoos/Tiger_Color_Arm.jpg" alt="Tiger Color Arm Piece">
-            <img src="../static/images/tattoos/Floral_BW_Back.jpg" alt="Floral Black and White Back Piece">
-            <img src="../static/images/tattoos/Gengar_Color_Arm.jpg" alt="Gengar Color Arm Piece">
-            <img src="../static/images/tattoos/Dreamcatcher_BW_Shoulder.jpg" alt="Dreamcatcher Black and White Shoulder Piece">
-            <img src="../static/images/tattoos/YingYang_Henna_Calf.jpg" alt="Ying-Yang Henna Calf Piece">
-            <img src="../static/images/tattoos/Dinosaur_Watercolor_Arm.jpg" alt="Watercolor Dinosaur Arm Piece">
-            <img src="../static/images/tattoos/Dragon_Floral_Thigh.jpg" alt="Floral Dragon Thigh Piece">
-            <img src="../static/images/tattoos/Tiger_Color_Arm.jpg" alt="Tiger Color Arm Piece">
-            <img src="../static/images/tattoos/Floral_BW_Back.jpg" alt="Floral Black and White Back Piece">
-            <img src="../static/images/tattoos/Gengar_Color_Arm.jpg" alt="Gengar Color Arm Piece">
-            <img src="../static/images/tattoos/Dreamcatcher_BW_Shoulder.jpg" alt="Dreamcatcher Black and White Shoulder Piece">
-            <img src="../static/images/tattoos/YingYang_Henna_Calf.jpg" alt="Ying-Yang Henna Calf Piece">
-            <img src="../static/images/tattoos/Dinosaur_Watercolor_Arm.jpg" alt="Watercolor Dinosaur Arm Piece">
-            <img src="../static/images/tattoos/Dragon_Floral_Thigh.jpg" alt="Floral Dragon Thigh Piece">
-            <img src="../static/images/tattoos/Tiger_Color_Arm.jpg" alt="Tiger Color Arm Piece">
-            <img src="../static/images/tattoos/Floral_BW_Back.jpg" alt="Floral Black and White Back Piece">
-            <img src="../static/images/tattoos/Gengar_Color_Arm.jpg" alt="Gengar Color Arm Piece">
-            <img src="../static/images/tattoos/Dreamcatcher_BW_Shoulder.jpg" alt="Dreamcatcher Black and White Shoulder Piece">
-            <img src="../static/images/tattoos/YingYang_Henna_Calf.jpg" alt="Ying-Yang Henna Calf Piece">
+            <img src="./static/images/tattoos/Dinosaur_Watercolor_Arm.jpg" alt="Watercolor Dinosaur Arm Piece">
+            <img src="./static/images/tattoos/Dragon_Floral_Thigh.jpg" alt="Floral Dragon Thigh Piece">
+            <img src="./static/images/tattoos/Tiger_Color_Arm.jpg" alt="Tiger Color Arm Piece">
+            <img src="./static/images/tattoos/Floral_BW_Back.jpg" alt="Floral Black and White Back Piece">
+            <img src="./static/images/tattoos/Gengar_Color_Arm.jpg" alt="Gengar Color Arm Piece">
+            <img src="./static/images/tattoos/Dreamcatcher_BW_Shoulder.jpg" alt="Dreamcatcher Black and White Shoulder Piece">
+            <img src="./static/images/tattoos/YingYang_Henna_Calf.jpg" alt="Ying-Yang Henna Calf Piece">
+            <img src="./static/images/tattoos/Dinosaur_Watercolor_Arm.jpg" alt="Watercolor Dinosaur Arm Piece">
+            <img src="./static/images/tattoos/Dragon_Floral_Thigh.jpg" alt="Floral Dragon Thigh Piece">
+            <img src="./static/images/tattoos/Tiger_Color_Arm.jpg" alt="Tiger Color Arm Piece">
+            <img src="./static/images/tattoos/Floral_BW_Back.jpg" alt="Floral Black and White Back Piece">
+            <img src="./static/images/tattoos/Gengar_Color_Arm.jpg" alt="Gengar Color Arm Piece">
+            <img src="./static/images/tattoos/Dreamcatcher_BW_Shoulder.jpg" alt="Dreamcatcher Black and White Shoulder Piece">
+            <img src="./static/images/tattoos/YingYang_Henna_Calf.jpg" alt="Ying-Yang Henna Calf Piece">
+            <img src="./static/images/tattoos/Dinosaur_Watercolor_Arm.jpg" alt="Watercolor Dinosaur Arm Piece">
+            <img src="./static/images/tattoos/Dragon_Floral_Thigh.jpg" alt="Floral Dragon Thigh Piece">
+            <img src="./static/images/tattoos/Tiger_Color_Arm.jpg" alt="Tiger Color Arm Piece">
+            <img src="./static/images/tattoos/Floral_BW_Back.jpg" alt="Floral Black and White Back Piece">
+            <img src="./static/images/tattoos/Gengar_Color_Arm.jpg" alt="Gengar Color Arm Piece">
+            <img src="./static/images/tattoos/Dreamcatcher_BW_Shoulder.jpg" alt="Dreamcatcher Black and White Shoulder Piece">
+            <img src="./static/images/tattoos/YingYang_Henna_Calf.jpg" alt="Ying-Yang Henna Calf Piece">
         </div>
     </div>
     
