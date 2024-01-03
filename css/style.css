@@ -21,7 +21,7 @@ h5 {
 }
 
 body {
-	background-image: url("./static/images/site_background.jpg");
+	background-image: url("../static/images/site_background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size:100vw;
