@@ -40,7 +40,7 @@ fieldset {
 		/** Media query for smaller screens */
 	@media screen and (max-width: 560px) {
 		fieldset {
-			width: 98%;
+			width: 78%;
 			aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
 			margin: 10px;
 		}
