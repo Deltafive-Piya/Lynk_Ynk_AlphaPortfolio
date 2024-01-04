@@ -67,7 +67,7 @@ h3 {
 
     .paged.nav .right > ul > li {
         display: inline;
-        margin-right: 20px;
+        margin:0px;
     }
 
     /* Links within list items */
