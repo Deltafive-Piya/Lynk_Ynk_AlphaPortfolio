@@ -4,16 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LynkYnk- Skin Care</title>
-    <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon_inverted.png">
+    <!-- <link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon_inverted.png">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/_nav_basic.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/_footer_insta.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/skinCare.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"> -->
+    <link rel="icon" type="image/x-icon" href="./static/images/favicon/favicon_inverted.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/_nav_basic.css">
+    <link rel="stylesheet" href="./css/_footer_insta.css">
+    <link rel="stylesheet" href="./css/skinCare.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <!--* NAVBAR  -->
-    {% include '_nav_basic.html' %}
+    <!-- {% include '_nav_basic.html' %} -->
+    <nav class="paged nav">
+        <div class="left">
+            <a href="./index.html"><img src="./static/images/lynk_ynk_pfp.png" alt="Lynk_Ynk's Profile Picture"></a>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./flashArt.html">Flash Art</a></li>
+                <li><a href="./skinCare.html">Skin Care</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="break-line"></div>
+    </nav>
     <div class="paged container">
         <div class="instructions">
             <div class="additional-instructions">
@@ -86,7 +107,12 @@
         </div>
     </div>
     <!--* FOOTER -->
-    {% include '_footer_insta.html' %}
-    <script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+    <!-- {% include '_footer_insta.html' %} -->
+    <footer class="footer-text">
+        <div class="break-line"></div>
+        <a href="https://www.instagram.com/lynk_ynk/" target="_blank"><img src="./static/images/icons/ig-logo-white.png" alt="Instagram Link to Lynk_Ynks profile"></a>
+    </footer>
+    <!-- <script src="{{ url_for('static', filename='js/gallery.js') }}"></script> -->
+    <script src="./static/js/gallery.js"></script>
 </body>
 </html>
