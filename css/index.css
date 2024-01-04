@@ -77,13 +77,13 @@ h3 {
     /*OnHover Add white shadow*/
     .paged.nav .right > ul > li > a:hover {
         text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-        font-size: 13px;
+        font-size: 12px;
     }
     
     /*onClick Add white shadow */
     .paged.nav .right > ul > li > a:active {
         text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-        font-size: 13px;
+        font-size: 12px;
     }
     
     button > div {
