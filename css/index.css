@@ -38,6 +38,10 @@ h3 {
     font: 42px georgia;
 }
 
+.contact-link {
+    margin-bottom: 30px;
+}
+
 /** Navbar css  */
 
 /** Left + right sections of the navigation */

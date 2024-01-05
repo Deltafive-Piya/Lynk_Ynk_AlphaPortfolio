@@ -36,7 +36,7 @@ fieldset {
 	align-items: center;
 	width: 10vw;
 	max-width: 820px;
-	margin: 10vw;
+	margin: 10vw ;
 }
 		/** Media query for smaller screens */
 	@media screen and (max-width: 560px) {
